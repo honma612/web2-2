@@ -8,12 +8,14 @@
     $(function(){
       $("#toggle").on("click", function(){
         $("#target").fadeToggle("slow");
+        $("#tsuika").slideToggle("slow");
       });
     });
   </script>
 </head>
 <body>
   <div id="target">表示・非表示される要素</div>
+  <div id="tsuika">追加</div>
   <button id="toggle">切り替え</button>
 </body>
 </thml>
